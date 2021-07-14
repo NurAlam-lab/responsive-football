@@ -154,6 +154,12 @@ footer p{
     .banner-section{
         height: 0%;
     }
+    .banner img{
+        margin-left: 120px;
+        margin-right: 100px;
+        width: 340px;
+        height: 280px;
+    }
     .tittle{
         font-size: 29px;
         width: 350px;
