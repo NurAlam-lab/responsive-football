@@ -129,7 +129,7 @@ footer p{
 .vedio-section h2{
     color: #E02C6D;
     font-size: 40px;
-    margin-left: 80px;
+    text-align: center;
 }
 .live-match{
     display: flex;
