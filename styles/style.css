@@ -128,7 +128,7 @@ footer p{
 }
 .vedio-section h2{
     color: #E02C6D;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 .live-match{
@@ -138,5 +138,5 @@ footer p{
     align-items: center;
 }
 .live-match .match{
-    margin: 0 40px;
+    margin: 0 25px;
 }
