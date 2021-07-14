@@ -10,12 +10,16 @@ body{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
     height: 677px;
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 70px;
     background-color: #2D25A0;
+}
+.header-container:hover .banner{
+    transform: scale(1.12);
+    transition: transform 3s ease-in-out;
+    
 }
 .tittle{
     width: 485px;
@@ -52,9 +56,10 @@ body{
     color: #FFFFFF;
 }
 
+
 .banner img{
     width: 556.01px;
-    height: 438px
+    height: 438px;
 }
 main{
     display: flex;
@@ -116,4 +121,22 @@ footer a img{
 }
 footer p{
     font-size: 18px;
+}
+/* live vedio section styles */
+.vedio-section{
+    margin-top: 150px;
+}
+.vedio-section h2{
+    color: #E02C6D;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.live-match{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.live-match .match{
+    margin: 0 40px;
 }
